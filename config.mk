@@ -7,12 +7,12 @@ VERSION = 0.8.2
 PREFIX ?= /usr/local
 MANPREFIX = $(PREFIX)/share/man
 
-X11INC = /usr/X11R6/include
-X11LIB = /usr/X11R6/lib
+#X11INC = /usr/X11/include
+#X11LIB = /usr/X11/lib
 
-# include X11 in Ubuntu
-# X11INC = /usr/include/X11R6
-# X11LIB = /usr/lib/X11R6
+#include X11 in Ubuntu
+X11INC = /usr/include/X11R6
+X11LIB = /usr/lib/X11R6
 
 PKG_CONFIG = pkg-config
 
