@@ -5,8 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetbrainsMono Nerd Font:style=Bold:size=10:antialias=true:autohint=true";
-static char *font2[] = { "Almarai:style:Regular:size=10:antialias=true:autohint=true" };
+static char *font = "JetBrainsMono Nerd Font:style=Bold:size=10:antialias=true:autohint=true";
+static char *font2[] = { 
+	"Almarai:style:Regular:size=10:antialias=true:autohint=true",
+	"Twemoji Mozilla:style=Regular:pixelsize=30:antialias=true:autohint=true"
+};
 static int borderpx = 2;
 
 /*
@@ -108,7 +111,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
